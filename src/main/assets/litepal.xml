@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--指定数据库名-->
+    <dbname value="newsApp"></dbname>
+    <!--用于指定版本号-->
+    <version value="11" ></version>
+
+    <list>
+        <mapping class="com.example.viewnews.NewsInfoBean"></mapping>
+        <mapping class="com.example.viewnews.usermodel.UserInfo"></mapping>
+        <mapping class="com.example.viewnews.NewsCollectBean"></mapping>
+        <mapping class="com.example.viewnews.usermodel.Article"></mapping>
+    </list>
+</litepal>
